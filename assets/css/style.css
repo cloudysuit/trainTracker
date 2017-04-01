@@ -1,0 +1,103 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+
+	/*background-image: url(../images/tokyo.gif);*/
+	background-color: black;
+	
+	font-family: 'Montserrat', sans-serif;
+}
+
+.myHeader{
+	background-color: black;
+	overflow: hidden;
+	color: #c7080a;
+	
+}
+
+h1{
+	font-size: 105px;
+}
+
+th, label, button{
+	font-family: 'Rajdhani', sans-serif;
+	font-weight: bold;
+
+}
+
+th{
+	font-size: 20px;
+}
+
+.table-borderless > tbody > tr > td,
+.table-borderless > tbody > tr > th,
+.table-borderless > tfoot > tr > td,
+.table-borderless > tfoot > tr > th,
+.table-borderless > thead > tr > td,
+.table-borderless > thead > tr > th {
+    border-top: none;
+    border-bottom: 1px;
+}
+
+label{
+	font-size: 18px;
+}
+
+button{
+	font-weight: bold;
+	color: white;
+	background-color: #0893a5;
+	font-size: 22px;
+
+}
+
+hr{
+	border-width: 2px;
+	border-color: black;
+}
+#headline{
+	font-size: 194px;
+	letter-spacing: 1px;
+	font-family: 'Bahiana', cursive;
+	margin-top: -73px;
+	margin-bottom: -87px;
+	
+	padding-left: 2px;
+	/*text-shadow: 3px 3px white;*/
+}
+.headerBox{
+	background-color: black;
+		
+}
+
+.myHeadline{
+		
+		/*text-shadow: 3px -3.5px #c7080a;*/
+		background: url(../images/seoul.png);
+		-webkit-text-fill-color: transparent;
+		-webkit-background-clip:text;
+		
+}
+
+.myPanelHeading{
+
+	background-color: #0893a5;
+	color: white;
+	
+	font-family: 'Rajdhani', sans-serif;
+}
+
+.myPanel{
+	border: none;
+	margin-top: 5px;
+}
+
+.top-margin{
+	margin-top: -39px;
+}
+
+.mySubTitles{
+	font-size: 25px;
+}

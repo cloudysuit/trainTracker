@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Track the Train!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Bahiana|Montserrat|Rajdhani" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="row">
+		<header class="jumbotron myHeader">
+		
+		<h1 class="text-center myHeadline" id="headline">C'mon Ride The Train!</h1>
+		
+		</header>
+
+	</div>
+<div class="container">
+	
+
+	<section class="panel myPanel top-margin">
+		<div class="panel-heading myPanelHeading">
+			<h3 class="panel-title mySubTitles">TRAIN SCHEDULES</h3>
+		</div>
+		<div class="panel-body">
+
+			<table class="table table-borderless">
+				<tr>
+					<th>TRAIN NAME</th>
+					<th>DESTINATION</th>
+					<th>FREQUENCY</th>
+					<th>NEXT ARRIVAL</th>
+					<th>MINUTES AWAY</th>
+				</tr>
+			</table>
+			
+		</div>
+	</section>
+
+	<section class="panel myPanel">
+		<div class="panel-heading myPanelHeading">
+			<h3 class="panel-title mySubTitles">ADD TRAIN</h3>
+		</div>
+		<div class="panel-body">
+			<form>
+				<div class="form-group">
+					<label for="train-name">TRAIN NAME:</label>
+					<input type="text" class="form-control" id="trainName">
+				</div>
+				<div class="form-group">
+					<label for="train-destination">DESTINATION:</label>
+					<input type="text" class="form-control" id="destination">
+				</div>
+				<div class="form-group">
+					<label for="first-train">FIRST TRAIN (24:00):</label>
+					<input type="text" class="form-control" id="firstTrain">
+				</div>
+				<div class="form-group">
+					<label for="train-frequency">FREQUENCY (minutes):</label>
+					<input type="text" class="form-control" id="frequency">
+				</div>
+				<button type="button" id="submit" class="btn btn-lg myButton">SUBMIT</button>
+
+			</form>
+
+		</div>
+
+	</section>
+	
+
+</div>
+
+
+
+
+
+<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+<script src="assets/javascript/app.js"></script>
+</body>
+</html>
